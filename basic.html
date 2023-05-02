@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!-- 
+Document type declaration, it declares the document type.
+It helps the browser to render the page.
+It is typically placed at the very beginning of an Html doc. 
+-->
+<html lang="en">
+  <!-- It is the root element of HTML -->
+  <head>
+    <!-- head tag contains meta information of webpage. -->
+    <meta charset="UTF-8" />
+    <!-- meta tag provide metadata or additional information 
+    about a webpage to web browser and other app that access the page.
+    -->
+    <meta
+      name="description"
+      content="This page contains basics knowledge of HTML."
+    />
+    <!-- description provides basic description about webpage -->
+    <meta name="keywords" content="basic, HTML, interview" />
+    <!-- keywords tells about some keywords used in the webpage -->
+    <meta name="author" content="Vishal Gupta" />
+    <!-- author tells who is the author of this webpage -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- It is used to set the viewport or responsiveness -->
+    <title>HTML Basics</title>
+    <!-- It is used to give the title of webpage. -->
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <!-- A favicon is a small image displayed next to the page title in the browser tab -->
+  </head>
+  <!-- It represents the body of the document. -->
+  <body>
+<!--open tag  +  content  +  closing tag  =  element -->
+<!-- element consists of open tag, closing tag and content inside it.  -->
+    <h1>         Heading     </h1>   
+<!-- It is used to give the heading.-->
+<img   src="" >
+<!-- src attribute  -->
+<!-- 
+attribute is used to give additional information to element. 
+It is typically given to open tag.
+-->
+<p style="color:red"></p>
+<!-- style attribute is used to give style to an element. -->
+
+<!-- Formatted Elements -->
+<!-- <b> - Bold text -->
+<b>Bold</b>    
+<!-- <strong> - Important text -->
+<strong>Strong</strong>    
+<!-- <i> - Italic text -->
+<i>Italic</i>    
+<!-- <em> - Emphasized text -->
+<em>Emphatic</em>    
+<!-- <mark> - Marked text -->
+<mark>Marked</mark>
+<!-- <small> - Smaller text -->
+<small>Small</small>    
+<!-- <del> - Deleted text -->
+<del>Deleted</del>    
+<!-- <ins> - Inserted text -->
+<ins>Inserted</ins>    
+<!-- <sub> - Subscript text -->
+<p>H<sub>2</sub>O</p>
+<!-- <sup> - Superscript text  -->
+<p>2<sup>2</sup></p>
+
+
+<!-- Quotation and Citation Elements -->
+<!-- blockquote -->
+<!-- element defines a section that is quoted -->
+<blockquote></blockquote>
+<!-- quotation -->
+<!-- element defines a text under quotation -->
+<q></q>
+<!-- abbrevation -->
+<!-- it abbrevate the text -->
+<abbr></abbr>
+<!-- address -->
+<!-- it is used to give address and it italicize the text -->
+<address></address>
+<!-- citation -->
+<!-- it is used to cite a book, a poem, a song. -->
+<cite></cite>
+<!-- bi-directional override -->
+<!-- it is used to change the direction of text -->
+<bdo></bdo>
+
+<!-- _self - Default. Opens the document in the same window/tab as it was clicked -->
+<a href="www.google.com" target="_self">Google</a>
+<!-- _blank - Opens the document in a new window or tab -->
+<a href="www.google.com" target="_blank">Google</a>
+<!-- _parent - Opens the document in the parent frame -->
+<a href="www.google.com" target="_parent">Google</a>
+<!-- _top - Opens the document in the full body of the window  -->
+<a href="www.google.com" target="_top">Google</a>
+
+<!-- The HTML <map> tag defines an image map. An image map is 
+an image with clickable areas. The areas are defined with one 
+or more <area> tags. -->
+<img src="workplace.jpg" alt="Workplace" usemap="#workmap">
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+  <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+</map>
+
+  </body>
+</html>
